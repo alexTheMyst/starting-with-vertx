@@ -2,6 +2,7 @@
 .gradle
 build/
 bin/
+out/
 .settings
 
 # Ignore VertX file cache
