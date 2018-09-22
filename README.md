@@ -1,0 +1,1 @@
+Learning project from book "A Gentle Guide to Asynchronous Programming With Eclipse Vert.x for Java Developers".
