@@ -3,6 +3,7 @@
 build/
 bin/
 out/
+db/
 .settings
 
 # Ignore VertX file cache

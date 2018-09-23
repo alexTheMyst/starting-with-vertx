@@ -11,7 +11,7 @@ version = '1.0-SNAPSHOT'
 sourceCompatibility = '1.8'
 mainClassName = 'io.vertx.core.Launcher'
 
-def vertxVersion = '3.5.2'
+def vertxVersion = '3.5.3'
 def mainVerticleName = 'io.vertx.starter.MainVerticle'
 def watchForChange = 'src/**/*'
 def doOnChange = './gradlew classes'
@@ -19,10 +19,11 @@ def doOnChange = './gradlew classes'
 dependencies {
   compile "io.vertx:vertx-core:$vertxVersion"
   compile "io.vertx:vertx-web:$vertxVersion"
-  compile "io.vertx:vertx-web-templ-freemaker:$vertxVersion"
+  compile "io.vertx:vertx-web-templ-freemarker:$vertxVersion"
   compile "com.github.rjeschke:txtmark:0.13"
   compile "io.vertx:vertx-jdbc-client:$vertxVersion"
   compile "org.hsqldb:hsqldb:2.3.4"
+  compile "ch.qos.logback:logback-classic:1.2.3"
   testCompile "junit:junit:4.12"
   testCompile "io.vertx:vertx-unit:$vertxVersion"
 }
